@@ -1,4 +1,4 @@
-''' sql
+'''sql
 SELECT * FROM Books;
 SELECT * FROM Branch;
 SELECT * FROM Employees;
