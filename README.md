@@ -5,7 +5,7 @@ SELECT * FROM Employees;
 SELECT * FROM Issued_status;
 SELECT * FROM Members;
 SELECT * FROM Return_status;
-
+```
 
                                          ---**** Project Tasks  *****-----
 
@@ -23,7 +23,7 @@ SELECT * FROM Books;
 
 INSERT INTO Books (isbn, book_title, category, rental_price, status, author, publisher)
 VALUES ('978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.');
-
+```
 
 Task 2: Update an Existing Members Address
 ```sql
