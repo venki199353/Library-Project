@@ -30,13 +30,13 @@ VALUES ('978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'H
 '''
 
 Task 2: Update an Existing Members Address
-
+'''sql
 SELECT * FROM Members;
 
 UPDATE Members
 SET member_address = '125 Main St'
 WHERE member_id = 'C101'; 
-
+'''
 
 Task 3: Delete a Record from the Issued Status Table -- Objective: Delete the record with issued_id = 'IS121' from the issued_status table.
 
