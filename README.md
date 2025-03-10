@@ -61,7 +61,7 @@ GROUP BY  issued_emp_id
 HAVING COUNT(*) > 1;
 ```
 
-----***** CTAS (Create Table As Select)  *****------
+# CTAS (Create Table As Select)  
 
 Task 6: Create Summary Tables: Used CTAS to generate new tables based on query results - each book and total book_issued_cnt**
 
@@ -79,7 +79,7 @@ GROUP BY B.isbn, B.book_title;
 SELECT * FROM Books_issued_count;  /* New table Created  */
 ```
 
-                                                 -----***** DATA ANALYSIS & FINDINGS  ******-----
+# DATA ANALYSIS & FINDINGS  
 
 
 Task 7. Retrieve All Books in a Specific Category:
@@ -150,7 +150,7 @@ ON I.issued_id = R.issued_id
 WHERE R.issued_id IS null;
 ```
 
-                                                   ----**** ADVANCED SQL OPERATIONS ***----
+# ADVANCED SQL OPERATIONS 
 
 
 Task 13: Identify Members with Overdue Books
