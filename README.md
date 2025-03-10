@@ -7,10 +7,10 @@ SELECT * FROM Members;
 SELECT * FROM Return_status;
 ```
 
-                                         # Project Tasks 
+# Project Tasks 
 
   
-                                          ---****  CRUD Operations  ****----
+## CRUD Operations  
 
 Create: Inserted sample records into the books table.
 
