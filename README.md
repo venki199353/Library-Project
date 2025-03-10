@@ -261,10 +261,10 @@ CALL add_return_records();
 
 /* STORED PROCEDURE CREATED in the name of add_return_records  */
 
-                                             
-											 ----**** Testing functions   ****----
+```                                             
+# Testing functions   ****----
 											  
-
+```sql
 SELECT * FROM Books;
 SELECT * FROM Issued_status;
 SELECT * FROM Return_status;
