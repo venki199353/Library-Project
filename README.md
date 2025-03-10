@@ -61,7 +61,7 @@ GROUP BY  issued_emp_id
 HAVING COUNT(*) > 1;
 ```
 
-# CTAS (Create Table As Select)  
+### CTAS (Create Table As Select)  
 
 ##### Task 6: Create Summary Tables: Used CTAS to generate new tables based on query results - each book and total book_issued_cnt**
 
@@ -317,7 +317,7 @@ FROM BOOKS
 WHERE isbn = '978-0-307-58837-1';   /* Here status updated from NO to YES  */
 ```
 
-Task 15: Branch Performance Report
+##### Task 15: Branch Performance Report
 Create a query that generates a performance report for each branch, 
 showing the number of books issued, the number of books returned, 
 and the total revenue generated from book rentals.
@@ -368,7 +368,7 @@ SELECT * FROM Active_members;
 ```
 
 
-Task 17: Find Employees with the Most Book Issues Processed
+##### Task 17: Find Employees with the Most Book Issues Processed
 Write a query to find the top 3 employees who have processed the most book issues. 
 Display the employee name, number of books processed, and their branch.
 
